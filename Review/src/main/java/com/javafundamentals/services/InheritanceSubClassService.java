@@ -16,7 +16,7 @@ public class InheritanceSubClassService extends InheritanceSuperClassService {
     }
 
     //sub class method that returns the super class method
-    public String superClassMessage(){
+    public String superClassMessage() {
         return superClass();
     }
 }
