@@ -9,14 +9,19 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by yovaliceroman on 4/18/17.
  */
 
+//resource class for the switch statement
 @RestController
 public class SwitchReviewResource {
 
+    //Autowired for the used of the class SwitchReviewService
     @Autowired
     SwitchReviewService switchReviewService;
 
+    //method mapping and calling the switch statement
+    //method in the class SwitchReviewService
     @RequestMapping("/switch")
     public String switchStatement(){
+
         return switchReviewService.switchStatement();
     }
 }
