@@ -12,7 +12,7 @@ public class InheritanceSubClassService extends InheritanceSuperClassService {
 
     //sub class method that returns a String
     public String subClassMessage(){
-        return "This is a method of the subclass and next will be the message of the super class.";
+        return "This is a method of the subclass";
     }
 
     //sub class method that returns the super class method
