@@ -46,6 +46,10 @@ public class PolymorphismCarModel extends PolymorphismVehicleModel {
 
     //method overloading example
     //it takes an int as a parameter
+    
+    // RYAN: the overloading looks good - but you're never using the costPerMileEx you take as a parameter 
+    // I'm sure you know this, but want to be sure - in the code below you're ignoring the parameter and 
+    // always setting costPerMileEx = 9;
     public double costPerMile(int costPerMileEx){
         costPerMileEx = 9;
 
